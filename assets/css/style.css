@@ -203,15 +203,15 @@ html,body{
   padding-top: 88px; /* space for fixed navbar */
 }
 
-/* Background image */
 .hero-new__bg{
   position: absolute;
   inset: 0;
-  background: url('/assets/images/hero-bg.jpg') center/cover no-repeat;
+  background: url('../images/hero-bg.jpg') center / cover no-repeat;
   transform: scale(1.04);
   filter: saturate(1.03) contrast(1.02);
   will-change: transform;
 }
+
 
 /* Premium overlay (readability + boho tone) */
 .hero-new__overlay{
